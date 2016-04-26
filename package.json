@@ -1,0 +1,28 @@
+{
+  "name": "@rajatsehgal/one-remote-server",
+  "version": "1.0.0",
+  "description": "A server that can run on a raspberry pi and provides a REST API to send IR signals to devices. This is used by the one-remote app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatsehgal/one-remote-server.git"
+  },
+  "keywords": [
+    "ir",
+    "lirc",
+    "remote"
+  ],
+  "author": "Rajat Sehgal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajatsehgal/one-remote-server/issues"
+  },
+  "homepage": "https://github.com/rajatsehgal/one-remote-server#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
